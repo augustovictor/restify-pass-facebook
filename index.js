@@ -28,7 +28,7 @@ var fbCallbackHandler2 = function ( req, res ) {
 
 	console.log( 'We\'re logged in.' );
 	console.log( 'USER: ' + req.user );
-	res.send( '200', req.user.displayName );
+	res.send( 200, req.user.displayName );
 
 };
 
